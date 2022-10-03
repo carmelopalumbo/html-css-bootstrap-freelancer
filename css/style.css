@@ -43,3 +43,13 @@ main h2{
 main p{
     text-align: center;
 }
+
+main ._info{
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+
+footer h3{
+    margin-top: 30px;
+    text-align: center;
+}
