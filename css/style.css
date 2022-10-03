@@ -24,3 +24,8 @@
     background-color: green;
     border: 1px solid black;
 }
+
+main h1{
+    text-align: center;
+    padding: 20px 0;
+}
