@@ -33,6 +33,12 @@ nav{
     width: 30vw;
 }
 
+.jumbotron .line{
+    background-color: white;
+    height: 3px;
+    width: 10vw;
+}
+
 .title{
     color: white;
     font-weight: bolder;
