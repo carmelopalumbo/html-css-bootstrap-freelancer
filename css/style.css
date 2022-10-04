@@ -13,6 +13,24 @@
     border: 1px solid black;
 }
 
+h2{
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+/* nav */
+
+nav{
+    background-color: #2C3E50;
+}
+
+
+.title{
+    color: white;
+    font-weight: bolder;
+}
+
 ._jumbo{
     height: 300px;
     background-color: green;
