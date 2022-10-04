@@ -59,12 +59,14 @@ main .line{
     background-color: #2C3E50;
 }
 
-main ._portfolio i{
+main ._portfolio i,
+main .contact i{
     color: #2C3E50;
     font-size: 3rem;
 }
 
-main ._portfolio h2{
+main ._portfolio h2,
+main .contact h2{
     font-size: 2rem;
     color: #2C3E50;
     font-weight: bold;
@@ -91,10 +93,10 @@ main .about-us .line{
 
 main .box_text{
     width: 60%;
-    margin: auto;
+    margin: 0 auto;
 }
 
-main .about-us i{
+main .about-us button i{
     font-size: 0.9rem;
     padding-right: 3px;
 }
@@ -107,9 +109,19 @@ main .about-us button{
     color: white;
 }
 
-main ._info{
-    min-height: 300px;
-    margin-bottom: 50px;
+main .contact{
+    padding-top: 50px;
+}
+
+main .my_form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+main .my_form .border_form{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid lightgrey;
 }
 
 footer h3{
