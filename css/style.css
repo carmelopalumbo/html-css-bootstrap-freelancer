@@ -13,10 +13,10 @@
     border: 1px solid black;
 }
 
-h2{
+h1{
     color: white;
-    font-size: 22px;
-    font-weight: bolder;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* nav */
@@ -25,6 +25,13 @@ nav{
     background-color: #2C3E50;
 }
 
+.jumbotron{
+    background-color: #1ABC9C;
+}
+
+.jumbotron img{
+    width: 30vw;
+}
 
 .title{
     color: white;
