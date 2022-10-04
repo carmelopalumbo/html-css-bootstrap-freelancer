@@ -73,9 +73,33 @@ main .contact h2{
     font-weight: bold;
 }
 
+main ._portfolio ._add{
+    position: relative;
+}
+
+main ._portfolio ._add:hover p{
+    display: block;
+}
+
+main ._portfolio ._add:hover img{
+    filter: brightness(50%);
+}
+
+main ._portfolio ._add p{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightgrey;
+    font-size: 15rem;
+    display: none;
+}
+
 main ._portfolio img{
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .about-us{
